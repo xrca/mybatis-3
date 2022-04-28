@@ -40,17 +40,18 @@ import java.lang.annotation.Target;
  *   }
  * }
  * </pre>
+ *
  * @author Clinton Begin
  */
 @Documented
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE)
 public @interface Intercepts {
-  /**
-   * Returns method signatures to intercept.
-   *
-   * @return method signatures
-   */
-  Signature[] value();
+    /**
+     * Returns method signatures to intercept.
+     *
+     * @return method signatures
+     */
+    Signature[] value();
 }
 

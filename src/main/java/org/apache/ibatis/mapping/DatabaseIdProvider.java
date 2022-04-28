@@ -29,9 +29,9 @@ import javax.sql.DataSource;
  */
 public interface DatabaseIdProvider {
 
-  default void setProperties(Properties p) {
-    // NOP
-  }
+    default void setProperties(Properties p) {
+        // NOP
+    }
 
-  String getDatabaseId(DataSource dataSource) throws SQLException;
+    String getDatabaseId(DataSource dataSource) throws SQLException;
 }

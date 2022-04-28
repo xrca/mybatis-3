@@ -57,10 +57,10 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.METHOD)
 public @interface ResultMap {
-  /**
-   * Returns result map names to use.
-   *
-   * @return result map names
-   */
-  String[] value();
+    /**
+     * Returns result map names to use.
+     *
+     * @return result map names
+     */
+    String[] value();
 }

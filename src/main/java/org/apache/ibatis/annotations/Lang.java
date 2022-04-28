@@ -43,10 +43,10 @@ import org.apache.ibatis.scripting.LanguageDriver;
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.METHOD)
 public @interface Lang {
-  /**
-   * Returns the {@link LanguageDriver} implementation type to use.
-   *
-   * @return the {@link LanguageDriver} implementation type
-   */
-  Class<? extends LanguageDriver> value();
+    /**
+     * Returns the {@link LanguageDriver} implementation type to use.
+     *
+     * @return the {@link LanguageDriver} implementation type
+     */
+    Class<? extends LanguageDriver> value();
 }
