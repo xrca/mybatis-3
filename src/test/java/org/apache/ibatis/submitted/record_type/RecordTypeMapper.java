@@ -20,7 +20,7 @@ import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Results;
 import org.apache.ibatis.annotations.Select;
 
-public interface RecordTypeMapper {
+/*public interface RecordTypeMapper {
 
   @Select("select id, val, url from prop where id = #{id}")
   Property selectPropertyAutomapping(int id);
@@ -43,4 +43,4 @@ public interface RecordTypeMapper {
     "where i.id = #{id}" })
   Item selectItem(Integer id);
 
-}
+}*/
